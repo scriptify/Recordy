@@ -1,0 +1,16 @@
+{
+  "presets": [
+    "es2015"
+  ],
+  "plugins": [
+    "transform-decorators-legacy",
+    "transform-class-properties",
+    "transform-object-rest-spread",
+    "transform-async-to-generator",
+    "transform-async-to-module-method",
+    ["transform-runtime", {
+      "polyfill": false,
+      "regenerator": true
+    }]
+  ]
+}

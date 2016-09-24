@@ -1,0 +1,35 @@
+{
+  "name": "recordy",
+  "version": "0.0.1",
+  "description": "Record your microphone (or any other input) and add effects to it!",
+  "main": "build/bundle.js",
+  "scripts": {
+    "start:dev": "webpack-dev-server",
+    "start:prod": "webpack"
+  },
+  "keywords": [],
+  "author": "Maximilian Torggler",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "*",
+    "babel-loader": "*",
+    "babel-plugin-transform-async-to-generator": "*",
+    "babel-plugin-transform-async-to-module-method": "*",
+    "babel-plugin-transform-class-properties": "*",
+    "babel-plugin-transform-decorators-legacy": "*",
+    "babel-plugin-transform-object-rest-spread": "*",
+    "babel-plugin-transform-runtime": "*",
+    "babel-polyfill": "*",
+    "babel-preset-es2015": "*",
+    "npm-install-webpack-plugin": "*",
+    "webpack": "*",
+    "webpack-dev-server": "*",
+    "webpack-merge": "*",
+    "worker-loader": "*",
+    "file-loader": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
