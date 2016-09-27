@@ -31,5 +31,9 @@
   "repository": {
     "type": "git",
     "url": ""
+  },
+  "dependencies": {
+    "webaudio-chnl": "0.0.2",
+    "wrecorder": "github:scriptify/Wrecorder"
   }
 }
