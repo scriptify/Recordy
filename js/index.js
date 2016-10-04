@@ -55,7 +55,7 @@ export default class Recordy extends Chnl {
 
 }
 
-const audioCtx = new AudioContext();
+/*const audioCtx = new AudioContext();
 const r = new Recordy(audioCtx);
 
 r.getInput()
@@ -68,6 +68,8 @@ r.getInput()
           audio.play();
         });
     }, 1000);
-    /*r.toSpeaker(0.4);
-    r.effects.bitcrusher.enable();*/
+    r.toSpeaker(0.4);
+    r.effects.bitcrusher.enable();
   });
+
+  */
