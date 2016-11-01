@@ -21,7 +21,7 @@ const COMMON_CONFIGURATION = {
     path: PATHS.build,
     filename: 'bundle.js',
     libraryTarget: 'umd',
-    library: 'EffectUnit'
+    library: 'Recordy'
   },
   module: {
     loaders: [
