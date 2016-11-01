@@ -4,6 +4,13 @@ This module abstracts away the logic needed to record audio in your browser.
 Since it's based on the [Chnl](https://github.com/scriptify/Chnl) module, a lot of effects can be added to the input. For information about this aspect just have a look a the documentation of Chnl.
 You can treat any Recordy-instance as a Chnl, because Recordy is extending Chnl.
 To record the input, I'm using a fork of the popular recorder.js library from Matt Diamond, [wrecorder](https://github.com/scriptify/Wrecorder), which allows us to record the output of WebAudio-nodes. Big thanks for this awesome work!
+
+## Installation
+The package is hosted on npm. You can consume it with any package manager supporting npm packages.
+```bash
+npm i recordy -S
+```
+
 ## Usage
 ### Creating an instance
 ```javascript
