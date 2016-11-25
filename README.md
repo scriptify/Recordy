@@ -5,6 +5,8 @@ Since it's based on the [Chnl](https://github.com/scriptify/Chnl) module, a lot 
 You can treat any Recordy-instance as a Chnl, because Recordy is extending Chnl.
 To record the input, I'm using a fork of the popular recorder.js library from Matt Diamond, [wrecorder](https://github.com/scriptify/Wrecorder), which allows us to record the output of WebAudio-nodes. Big thanks for this awesome work!
 
+__Attention__: Since the [webaudio-effect-unit](https://github.com/scriptify/webaudio-effect-unit) has reached v.1.1.0, the way how the effects work has changed. Have a look at it's repository for more details. Make sure to do this BEFORE you update. If you have difficulties or questions, just open an issue! I am always glad if I can help. :smile:
+
 ## Installation
 The package is hosted on npm. You can consume it with any package manager supporting npm packages.
 ```bash
