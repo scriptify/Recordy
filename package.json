@@ -33,7 +33,7 @@
     "url": "https://github.com/scriptify/Recordy.git"
   },
   "dependencies": {
-    "webaudio-chnl": "0.0.4",
+    "webaudio-chnl": "*",
     "wrecorder": "github:scriptify/Wrecorder"
   }
 }
