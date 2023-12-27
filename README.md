@@ -1,6 +1,3 @@
-# ATTENTION!
-# This package is now maintained as a part of the [sountility collection](https://github.com/scriptify/sountility). This repository won't be used anymore for this package, but it will still be maintained.
-
 # Recordy
 ## Recording for browsers - the easy way
 This module abstracts away the logic needed to record audio in your browser.
